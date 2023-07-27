@@ -10,6 +10,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")
 
+ALLOWED_HOSTS = ['130.193.34.79', '127.0.0.0', 'localhost', 'givemetaski.ddns.net']
+
 # Application definition
 
 INSTALLED_APPS = [
